@@ -9,7 +9,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* Posionando a imagem na tela */
 
-    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(post_thumbnail-7aa5da8f19c9a0b0b0998194811ca5aa-1160x770.jpeg);
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(../../images/post_thumbnail-7aa5da8f19c9a0b0b0998194811ca5aa-1160x770.jpeg);
     background-position: center center;
     background-size: cover;
     background-position-y: 0px;
@@ -21,6 +21,7 @@
     background: #222222a4;
     padding: 5px 20px;
     font-size: 20px;
+    width: 98.8vw;
   }
 
   ul {

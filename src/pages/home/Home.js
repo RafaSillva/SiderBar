@@ -4,7 +4,7 @@ function Home(){
 
     return (
         <>
-        <div className="Home"> 
+        <div class="Home"> 
             <nav>
         <ul class="menu">
             <li class="logo"><a href="#">Next Level</a></li>
@@ -13,8 +13,8 @@ function Home(){
             <li class="item"><a href="#">Agenda</a></li>
             <li class="item"><a href="#">Contatos</a></li>
 
-            <li class="item button"><a href="#">Log In</a></li>
-            <li class="item button secondary"><a href="#">Sign Up</a></li>
+            <li class="item button"><a href="/login">Log In</a></li>
+            <li class="item button secondary"><a href="/cadastro">Sign Up</a></li>
             <li class="toggle"><span class="bars"></span></li>
         </ul>
     </nav>
