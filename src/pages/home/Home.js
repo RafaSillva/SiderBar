@@ -1,3 +1,4 @@
+import MenuButton from './MenuBotao';
 import './home.css';
 
 function Home(){
@@ -6,7 +7,7 @@ function Home(){
         <>
         <div class="Home"> 
             <nav>
-        <ul class="menu">
+        <ul class="menu" onClick={MenuButton}>
             <li class="logo"><a href="#">Next Level</a></li>
             <li class="item"><a href="#">Home</a></li>
             <li class="item"><a href="#">Treinos</a></li>
@@ -31,5 +32,4 @@ function Home(){
         </>
     )
 }
-
 export default Home;

@@ -1,12 +1,13 @@
-import RoutesApp from './Routes'
+import React from 'react';
+import RoutesApp from './Routes';
+import menu from './MenuBotao.js'
 
 function App() {
-
   return (
     <div>
-      <RoutesApp/>
+      <RoutesApp />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
