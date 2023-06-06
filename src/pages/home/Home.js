@@ -1,13 +1,11 @@
-import MenuButton from './MenuBotao';
 import './home.css';
-
 function Home(){
 
     return (
         <>
         <div class="Home"> 
-            <nav>
-        <ul class="menu" onClick={MenuButton}>
+          {/*   <nav>
+        <ul class="menu">
             <li class="logo"><a href="#">Next Level</a></li>
             <li class="item"><a href="#">Home</a></li>
             <li class="item"><a href="#">Treinos</a></li>
@@ -18,7 +16,7 @@ function Home(){
             <li class="item button secondary"><a href="/cadastro">Sign Up</a></li>
             <li class="toggle"><span class="bars"></span></li>
         </ul>
-    </nav>
+    </nav>*/}
     <main>
         <div class="main-content">
             <h1 class="primary-text">Se inscreva e comece agora o seu treino</h1>
@@ -30,6 +28,7 @@ function Home(){
     </main>
         </div>
         </>
+
     )
 }
 export default Home;

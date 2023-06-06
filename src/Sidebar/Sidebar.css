@@ -1,0 +1,19 @@
+.sidebar_button{
+  top: 1%;
+  left: 1%;
+  position: absolute;
+  display: flex;
+  font-size: 30px;
+
+ 
+}
+.sidebar{
+    
+    background-color: #dc0b0b; 
+    position: absolute;
+    top: 2.6%;
+    
+}
+li{
+    padding: 10px;
+}
